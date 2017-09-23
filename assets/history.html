@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body onload="myFunction()">
+
+<p id="history"></p>
+
+<script>
+function myFunction() {
+	var text = Android.showHistory();
+    document.getElementById('history').innerHTML = text;
+}
+</script>
+
+</body>
+</html>
